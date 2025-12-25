@@ -1,13 +1,28 @@
 {
-  "name": "01-plain-nodejs-with-ai",
+  "name": "task-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "CLI Task Manager with JSON persistence",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "task": "./dist/index.js"
   },
-  "keywords": [],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "task": "tsx src/index.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": ["cli", "task", "manager"],
   "author": "",
   "license": "MIT",
-  "type": "module"
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
 }

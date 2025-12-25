@@ -67,3 +67,46 @@ allow update files inside backend-roadmap/level-01-student/01-cli-task-manager-h
 </request>
 
 ---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+implementation plans in backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+implement code following plans, phases one by one, step by step
+after each phase and after each step, validate all tests pass
+</request>
+
+---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+implement completed in backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai, especially source code files are mainly inside directory backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/src
+list all requirements from backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+validate all requirements are met by current implement result
+
+if there are missing requirements not implemented yet, rewrite implement update plan
+allow update implement result
+</request>
+
+---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+do code review on implement result in directory backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/src
+if there are clarification questions I should answer, ask me by suggesting recommended options
+based on gathered information, build plan to change implementation
+</request>
+
+---
+
+allow update files inside backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/src
+
+---

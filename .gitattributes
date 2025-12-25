@@ -1,0 +1,69 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binary files - Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.webp binary
+
+# Binary files - Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+*.otf binary
+
+# Binary files - Archives
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+
+# Binary files - Documents
+*.pdf binary
+
+# Language-specific settings - JavaScript/TypeScript
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# Language-specific settings - Web
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+
+# Language-specific settings - Data/Config
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+*.toml text eol=lf
+
+# Language-specific settings - Shell/Scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Language-specific settings - Other
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.kt text eol=lf
+*.kts text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+*.sql text eol=lf
+
+# Git
+*.gitattributes text eol=lf
+*.gitignore text eol=lf

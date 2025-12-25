@@ -1,0 +1,69 @@
+
+
+utilize skill-creator
+allow websearch and webfetch
+
+create skill for
+(1) clarifying requirements (through creating PRD, Spec, User Story)
+- ask clarification questions to collect information on company size, project size, usage, target customers, target customer size, etc. important factors like these
+- ask clarification questions suggesting recommended options, if there is anything vague or either options
+- ask lots of questions that user is missing
+(1) implementation plan (from PDF, business requirements note, etc)
+- ask users to choose specific tech stask, ask questions from various layers and aspects
+- always follow tdd cycle
+(1) actual implentation
+- follow tdd cycle
+- step by step
+- on complete each step, check all tests pass, and if even single test do not pass fix production code and test code appropriately
+- if missing requirements found during implementation, ask clarification questions to user suggesting recommended options
+(1) naming convention
+- follow best practice for each programming language
+(1) code formatting
+- if code formatting logic missing, setup formatting rules by asking clarification questions to user suggesting recommended options
+- before each git add, format all updated files
+- before each git push, format all updated files
+(1) code review
+- follow best practice for each language, framework, environment
+- must not choose the best optimal choices. considering overall situations, trade-offs are acceptable.
+
+---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+PRD is /Users/eunho/eunhoFolder/workspaces/roadmaps-for-self-learning/backend-roadmap/level-01-student/01-cli-task-manager-help-understanding.md
+build implementation plan inside directory backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+</request>
+
+---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+read, scan, analyze and review implementation plans inside directory backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+1) inspect each phase one by one
+2) inspect between phases
+3) also update backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan/README.md
+if there are clarification questions I should answer, ask me by suggesting recommended options
+based on gathered information, rewrite update plan
+if found errors, flaws, mistakes, or inconsistencies, update each file to be correct
+</request>
+
+---
+
+<context 1>
+refer ${project_root}/CLAUDE.md for prerequisite
+</context 1>
+
+<request>
+do code review on implementation plans specified in directory backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+if there are clarification questions I should answer, ask me by suggesting recommended options
+based on gathered information, rewrite update plan
+allow update files inside backend-roadmap/level-01-student/01-cli-task-manager-help-understanding/01-plain-nodejs-with-ai/ai-reference/impl-plan
+</request>
+
+---
